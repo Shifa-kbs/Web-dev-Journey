@@ -31,3 +31,20 @@ html,body{
   letter-spacing: 5px;
   text-transform: lowercase;
 }
+.box{
+  padding: 20px;
+  height:70%;
+  width: 50%;
+  background-size: cover;
+  margin-left: 40px;
+  background-position: center;
+  background-color: pink;
+  border: 2px solid black;
+  background-image: url(https://images.unsplash.com/photo-1778088442645-ea930ccb7914?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyN3x8fGVufDB8fHx8fA%3D%3D);
+}
+.inline{
+  display: inline;
+}
+.block{
+  display: block;
+}
