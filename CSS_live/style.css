@@ -6,6 +6,11 @@
   font-family: monu;
   src: url(./Roboto-Italic-VariableFont_wdth\,wght.ttf);
 }
+@font-face {
+  font-family: hello;
+  src: url(./font_nothing.ttf);
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -31,8 +36,8 @@ h2{
   color: rgb(255,255,255);
   background-color: rgb(254,7,48);
   font-size: 50px;
-  font-family: monu;
+  font-family: hello;
   font-weight: 100;
-  text-align: center;
+  text-align: center       ;
 }
 
