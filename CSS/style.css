@@ -3,48 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html,body{
   height: 100%;
   width: 100%;
 }
-.heading{
-  font-size: 50px;
-  text-align: center;
-  margin-bottom: 10px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 400;
-
-}
-.subHeading{
-  font-size: 25px;
-  color: grey;
-  text-align: center;
-  margin-bottom: 10px;
-}
-.para{
-  /*text-decoration: overline;*/
-  font-size: 15px;
-  text-align: center;
-  line-height: 20px;
-  word-spacing: 3px;
-  letter-spacing: 5px;
-  text-transform: lowercase;
-}
-.box{
-  padding: 20px;
-  height:70%;
-  width: 50%;
-  background-size: cover;
-  margin-left: 40px;
-  background-position: center;
-  background-color: pink;
-  border: 2px solid black;
-  background-image: url(https://images.unsplash.com/photo-1778088442645-ea930ccb7914?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyN3x8fGVufDB8fHx8fA%3D%3D);
-}
-.inline{
-  display: inline;
-}
-.block{
-  display: block;
+#eng{
+  background-color: blue;
+  color: white;
+} 
+.Momo{
+  background-color:red;
+  color: yellow;
 }
