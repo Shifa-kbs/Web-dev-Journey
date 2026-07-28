@@ -1,0 +1,26 @@
+@font-face{
+  font-family: Love;
+  src: url(./GERALDINE\ PERSONAL\ USE.ttf);
+}
+@font-face{
+  font-family: Horror;
+  src: url(./Brandal\ Legend\ Demo.ttf);
+}
+
+
+
+h1{
+  font-size: 100px;
+  color: rgb(244, 136, 211);
+  background-color: rgb(234, 233, 233);
+  font-family: Love;
+  text-align: center;
+}
+
+h2{
+  font-size: 100px;
+  color: rgb(255, 34, 0);
+  background-color: rgb(15, 14, 14);
+  font-family: Horror;
+  text-align: center;
+}
