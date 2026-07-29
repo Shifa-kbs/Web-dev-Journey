@@ -1,0 +1,38 @@
+**{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'helvetica neue';
+}
+html,
+body{
+height: 100%;
+width:100%;
+}
+.page{
+  height: 100%;
+  width: 100%;
+  background-color: royalblue;
+}
+.page:nth-child(2){
+background-color: rgb(20, 50, 141);
+}
+.page:nth-child(3){
+  background-color: rgb(6, 23, 73);
+}
+.page:nth-child(4){
+  background-color: rgb(114, 129, 174);
+}
+#box{
+  height: 200px;
+  width: 200px;
+  background-color: crimson;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+h1{
+  position: sticky;
+  top: 50%;
+}
