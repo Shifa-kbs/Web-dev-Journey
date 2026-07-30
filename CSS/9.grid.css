@@ -1,0 +1,84 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'helvetica neue';
+color: white;
+font-size: 50px;
+}
+html,
+body{
+height: 100%;
+width:100%;
+}
+main{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(51, 14, 116);
+  display: flex;
+  flex-direction: column;
+  align-items:centre;
+  justify-content: space-between;
+}
+nav{
+  height: 80px;
+width: 100%;
+background-color: rgb(201, 184, 187);
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px;
+}
+.part1{
+  height: 100%;
+  width: 15%;
+  background-color: royalblue;
+
+}
+.part2{
+  height: 100%;
+  width: 40%;
+  background-color: rgb(94, 94, 207);
+}
+.part3{
+  height: 100%;
+  width: 40%;
+  background-color:rgb(47, 47, 232) ;
+} 
+section{
+  width: 100%;
+  background-color:rgb(180, 56, 128);
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer{
+  height: 100px;
+  width: 100%;
+  background-color: rgb(173, 184, 184);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+button{
+  background-color: blueviolet;
+  width: 160px;
+  font-size: 20px;
+}
+.btm1{
+  height: 100%;
+  width: 15%;
+  background-color: rgb(59, 89, 180);
+
+}
+.btm2{
+  height: 100%;
+  width: 40%;
+  background-color: rgb(94, 94, 207);
+}
+.btm3{
+  height: 100%;
+  width: 40%;
+  background-color:rgb(47, 47, 232) ;
+}
