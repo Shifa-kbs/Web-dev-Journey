@@ -1,0 +1,25 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'helvetica neue';
+}
+html,
+body{
+height: 100%;
+width:100%;
+color: white;
+}
+main{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 20% minmax(10%,30%) 50%;
+  grid-template-rows:repeat(4,25%);
+
+}
+.box{
+  border: 2px solid white;
+  background-color: rgb(173, 23, 83);
+}
