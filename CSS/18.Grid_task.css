@@ -16,38 +16,51 @@ main{
   display: grid;
   grid-template-columns: 22% 20% 8% 28% 22%;
   grid-template-rows: 29% 26% 7% 18% 20%;
-  grid-template-areas: "left-top top-center1 "
-"left-top top-center1 top-center1"
-"left-bottom center center"
-"left-bottom center center"
-"left-bottom bottom-center1 bottom-center2"
+  grid-template-areas: "left-top top-center1 top-center1 top-center2 right-top"
+"left-top top-center1 top-center1 top-center2 right-top"
+"left-bottom center center center right-top"
+"left-bottom center center center right-bottom"
+"left-bottom bottom-center1 bottom-center2 bottom-center2 right-bottom"
 
   ;
 }
 .left-top{
   background-color: royalblue;
+  grid-area: left-top;
+
 }
 .left-bottom{
   background-color: rgb(225, 113, 65);
+  grid-area: left-bottom;
+  
 }
 .right-top{
   background-color: royalblue;
+  grid-area: right-top;
 }
 .right-bottom{
   background-color: rgb(225, 153, 65);
+  grid-area: right-bottom;
+
 }
 .center{
   background-color: rgb(233, 235, 239);
+  grid-area: center;
+
 }
 .top-center1{
   background-color: rgb(225, 65, 153);
+  grid-area: top-center1;
 }
 .top-center2{
   background-color: rgb(65, 188, 225);
+  grid-area: top-center2;
 }
 .bottom-center1{
   background-color:rgb(225, 65, 153);
+  grid-area: bottom-center1;
 }
 .bottom-center2{
   background-color: rgb(65, 188, 225);
+  grid-area: bottom-center2;
 }
