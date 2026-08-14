@@ -15,7 +15,7 @@ main{
   background-color: black;
   display: grid;
   grid-template-columns: 22% 20% 7% 27% 22%;
-  grid-template-rows: 27% 24% 7% 18% 18%;
+  grid-template-rows: 27% 24% 7% 18% 22%;
   grid-template-areas: "left-top top-center1 top-center1 top-center2 right-top"
 "left-top center center center right-top"
 "left-bottom center center center right-top"
@@ -40,6 +40,7 @@ gap: 10px;
   grid-area: right-top;
   border: 2px solid white;
   border-radius: 20px;
+  padding: 20px;
 
 }
 .right-bottom{
@@ -54,6 +55,9 @@ gap: 10px;
   border: 2border-px solid white;  
   border-radius: 20px;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .top-center1{
   background-color: rgb(225, 65, 153);
@@ -78,7 +82,11 @@ gap: 10px;
   background-color: rgb(65, 188, 225);
   grid-area: bottom-center2;
   border: 2px solid white;
-  border-radius: 20px;  
+  padding: 20px;
+  border-radius: 25px;  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .circle{
   height: 100%;
@@ -90,7 +98,7 @@ gap: 10px;
 .center img{
   position: absolute;
   bottom: 0;
-  height: 500px;
+  height: 400px;
   
 }
 .bottom-center2-div1{
@@ -109,4 +117,18 @@ gap: 10px;
   border-radius: 50px;
   padding: 10px 20px;
   border: none;
+}
+.bottom-center2 img{
+  height: 90%;
+}
+.left-top i{
+  font-size: 50px;
+}
+.right-top img{
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  border: 2px solid black;
+ margin-right: -20px;
+ object-fit: cover;
 }
